@@ -1,0 +1,119 @@
+#ventana_principal{
+background-color:#000000;
+border:solid 2px blue;
+
+}
+
+#titulo_principal {
+color:#FFFFFF;
+font-family:Andalus;
+font-size:40px;
+
+}
+#tiempo_cancion {
+color:#FF6400;
+
+}
+QMessageBox {
+
+color:#FFFFFF
+}
+
+#menu_principal {
+background-color:#000000;
+
+
+}
+#item_de_menu{
+background-color:#FF8200;
+color:#000000;
+border:solid 2px blue;
+}
+#item_de_menu:item::selected{
+background-color:#000000;
+color:#FF6400;
+
+
+}
+#menu_principal:item {
+background-color:#000000;
+color:#FF6400;
+font-family:Andalus
+}
+
+#menu_principal:item::selected {
+background-color:#FF6400;
+color:#000000;
+}
+#menu_principal:item::pressed {
+background-color:#000000;
+color:#FF6400;
+}
+#lista_reproduccion {
+	background-color:#000000;
+	border:3px solid white;
+	border-radius:6px
+	
+}
+#lista_reproduccion::handle::vertical {
+	background-color:#FF6400
+	
+	
+}
+#lista_reproduccion::item {
+	color:#FFFFFF;
+	border:1px solid;
+	
+	
+}
+#lista_reproduccion::item::selected {
+	color:#000000;
+	background-color:#FF6400;
+	
+}
+#menu_emergente {
+	background-color:#FF6400;
+	border-color:orange
+	
+}
+#menu_emergente::item {
+	background-color:#FF6400;
+	color:#000000;
+	
+}
+#menu_emergente, #menu_emergente::item::selected  {
+	background-color:#000000;
+	color:#FF6400;
+	
+	
+}
+#item_lista {
+	font-size:12px
+	
+	
+}
+Phonon--SeekSlider > QSlider {
+background-color:#000000;
+border-radius:10px
+
+}
+Phonon--SeekSlider > QSlider::handle {
+background-color:#FF6400;
+border-radius:10px
+
+
+}
+QToolTip {
+font-size:9pt;
+color:#FFFFFF;
+border-style:solid;
+border-radius:20px;
+background-color: black;
+
+}
+Phonon -- VolumeSlider::handle {
+background-color:#FF6400;
+border-radius:10px
+
+
+}
